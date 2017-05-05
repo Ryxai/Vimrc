@@ -123,5 +123,7 @@ if !exists('g:neocomplete#sources#omni#input_patterns')
         let g:neocomplete#source#omni#input_patterns = {}
 endif
 
-
+"Tab filetype handling                                                          
+autocmd FileType idris setlocal ts=2 sts=2                                      
+autocmd FileType python setlocal ts=2 sts=2   
 
